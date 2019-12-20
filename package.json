@@ -1,0 +1,28 @@
+{
+  "name": "omegarproj",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "mocha dist/test.spec.js --reporter spec",
+    "start": "node dist/main.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "author": "eldor",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.14",
+    "@types/needle": "^2.0.4",
+    "@types/node": "^12.12.7",
+    "@types/puppeteer": "^2.0.0",
+    "@types/xml-parser": "^1.2.29",
+    "@types/xml2js": "^0.4.5",
+    "cheerio": "^1.0.0-rc.3",
+    "needle": "^2.4.0",
+    "puppeteer": "^2.0.0",
+    "xml-parser": "^1.2.1",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {}
+}
